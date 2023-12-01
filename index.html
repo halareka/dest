@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>bruh</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body align="middle">
+    <div id="color">
+        <P>ㅤ</P>
+    </div>
+    <button id="kill"><p id="textkill" >включить</p></button>
+    <div class="ctrl">
+        <div class="console">
+            <h3>переменных созданно:</h3>
+            <h3>переменных удаленно:</h3>
+            <h3 style="margin-left: -33px;">циклов пройденно:</h3>
+        </div>
+        <div class="console2">
+            <h3 id="one">0</h3>
+            <h3 id="two">0</h3>
+            <h3 id="three">0</h3>
+        </div>
+    </div>
+    <div style="margin-left: -150px;">
+        <p style="color:rgb(159, 0, 0);margin-left: -20px;">время в милисек/</p>
+        <input type="number" id="time" value="1"> 
+    </div>
+    <script>
+        const numberInput = document.querySelector("#time");
+        var time = parseInt(numberInput.value);
+      
+        numberInput.addEventListener("input", function() {
+          time = parseInt(numberInput.value);
+          console.log(time); // Output the updated value in the console
+        });
+    </script>
+    
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

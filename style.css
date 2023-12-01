@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(243, 155, 255);
+}
+button{
+    margin-top: 190px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 15px;
+
+}
+button:hover{
+    background-color: bisque;
+}
+p{
+    font-size: larger;
+    font-weight: 600;
+}
+.console{
+    color: rgb(255, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+.console2{
+    color: rgb(255, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -117px;
+    margin-left: 290px;
+}
+.ctrl{
+    margin-left: -100px;
+}
+.color{
+    background-color: rgb(255, 255, 255);
+    color: transparent;
+}
